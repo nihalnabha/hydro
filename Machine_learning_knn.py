@@ -177,6 +177,7 @@ while True:
 	print(phosphorus_level)
 	print(potassium_level)
 	print(phlevel)
+	print(phlevel)
 	
 	speak("Sir according to the data that you provided to me. The ratio of nitrogen in the soil is  " + nitrogen_level + ". The ratio of phosphorus in the soil is  " + phosphorus_level + ". The ratio of potassium in the soil is  " + potassium_level + ". The temperature level around the field is  " + temperature_level + ". The humidity level around the field is  " + humidity_level + ". The ph type of the soil is  " + phlevel + ". The amount of rainfall is  " + rainfall_level )  # Making our program to speak about the data that it has received about the crop in front of the user.
 	window['-OUTPUT1-'].update('The best crop that you can grow : ' + crop_name )                                     # Suggesting the best crop after prediction.
